@@ -20,10 +20,10 @@
 
 The word pragmatic means _"Practical, concerned with making decisions 
 and actions that are useful in practice, not just theory."[1]_ Writing pragmatic
-JavaScript is all about optimizing the progress of writing JavaScript for you 
+JavaScript is all about optimizing the process of writing JavaScript for you 
 as a programmer, using all the facilities the language provides. 
 
-Writing less code is good—emphasized by the no optional semicolons rule, by 
+Writing less code is good; emphasized by the no optional semicolons rule, by 
 no curly braces where not necessary and by using functional programming constructs
 whereever possible.
 
