@@ -42,5 +42,15 @@ $.fn.siblings = function(selector){
 }
 ```
 
+### Contribute
+
+I welcome contributions—this guide is very basic at the moment and should probably have some more
+guidelines for specific situations and how to get started. You know where the fork & pull request
+buttons are.
+
+### License
+
+Pragmatic.js is licensed under the terms of the MIT License.
+
   [optional]: http://mislav.uniqpath.com/2010/05/semicolons/
   [zepto]: http://zeptojs.com/
