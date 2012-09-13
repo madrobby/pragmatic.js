@@ -8,11 +8,13 @@
 * Use comments to describe non-obvious code behavior
 * Don't write comments that do not add to code understanding
 * Optimize for performance only if there's a measurable problem
+* If a source file is longer than 200 LoC, it's time to split it up
 
 ### Functions:
 * Use one var statement per function, at the top
 * `function name() { }` for named functions
 * `function(){ }` for anonymous functions
+* Don't use more than 10 LoC per method (except for closures)
 
 ### Statements & expressions:
 * Use short and concise expressions
