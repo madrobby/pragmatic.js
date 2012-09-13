@@ -16,7 +16,7 @@
 
 Here are some examples from [Zepto.js][zepto].
 
-```
+```javascript
 // typical helper function
 function eachEvent(events, fn, iterator){
   if ($.isObject(events)) $.each(events, iterator)
