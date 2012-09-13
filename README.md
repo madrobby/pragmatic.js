@@ -2,19 +2,25 @@
 
 ## TL;DR
 
-* `function name() { }` for named functions
-* `function(){ }` for anonymous functions
+### General coding:
 * Use short and concise expressions
 * Prefer functional programming over for or while loops
-* No curly braces for single-line control flow statements such as `if` & friends
-* Don't write [semicolons that are optional][optional]
-* Put a single semicolon _before_ statements that start with `(` or `[`
-  (see above article as for why it's needed)
 * Use long, descriptive variable and method names
 * Use blank lines to separate "paragraphs" of code for readability
 * Use comments to describe non-obvious code behavior
 * Don't write comments that do not add to code understanding
-* Optimize for performance only if there's a measureable problem
+* Optimize for performance only if there's a measurable problem
+
+### Functions:
+* Use one var statement per function, at the top
+* `function name() { }` for named functions
+* `function(){ }` for anonymous functions
+
+### Statements & expressions:
+* No curly braces for single-line control flow statements such as `if` & friends
+* Don't write [semicolons that are optional][optional]
+* Put a single semicolon _before_ statements that start with `(` or `[`
+  (see above article as for why it's needed)
 * Use ternary when it is simple enough as to not make code difficult to understand
 
 ## Pragmatic JavaScript
