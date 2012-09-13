@@ -1,5 +1,7 @@
 # Pragmatic.js code style guidelines
 
+## TL;DR
+
 * `function name() { }` for named functions
 * `function(){ }` for anonymous functions
 * Use short and concise expressions
@@ -11,6 +13,26 @@
 * Use long, descriptive variable and method names
 * Use blank lines to separate "paragraphs" of code for readability
 * Use comments to describe non-obvious code behavior
+* Don't write comments that do not add to code understanding
+* Optimize for performance only if there's a measureable problem
+
+## Pragmatic JavaScript
+
+The word pragmatic means _"Practical, concerned with making decisions 
+and actions that are useful in practice, not just theory."[1]_ Writing pragmatic
+JavaScript is all about optimizing the progress of writing JavaScript for you 
+as a programmer, using all the facilities the language provides. 
+
+Writing less code is good—emphasized by the no optional semicolons rule, by 
+no curly braces where not necessary and by using functional programming constructs
+whereever possible.
+
+At the same time, when you come back to your code later, you want to understand it—
+thus long, descriptive variable and method names, and comments where necessary.
+
+JavaScript is a modern, flexible and malleable scripting language, and it deserves
+to be treated as such. Pragmatic.js is also about discovering and learning the language
+strengths as well as its quirks so you can make full use of it.
 
 ### Examples
 
@@ -52,5 +74,6 @@ buttons are.
 
 Pragmatic.js is licensed under the terms of the MIT License.
 
+  [1]: http://en.wiktionary.org/wiki/pragmatic
   [optional]: http://mislav.uniqpath.com/2010/05/semicolons/
   [zepto]: http://zeptojs.com/
