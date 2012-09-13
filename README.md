@@ -54,7 +54,7 @@ function eachEvent(events, fn, iterator){
 
 // from Zepto core, $.fn.siblings implementation
 function filtered(nodes, selector) {
-  return selector === undefined ? $(nodes) : $(nodes).filter(selector)}
+  return selector === undefined ? $(nodes) : $(nodes).filter(selector)
 }
 
 $.fn.siblings = function(selector){
