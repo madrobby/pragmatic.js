@@ -23,6 +23,7 @@
 * Put a single semicolon _before_ statements that start with `(` or `[`
   (see above article as for why it's needed)
 * Use ternary when it is simple enough as to not make code difficult to understand
+* Do not use `try` and `catch` unless absolutely required (like an API forcing you to do so)
 
 ## Pragmatic JavaScript
 
