@@ -15,6 +15,7 @@
 * Use comments to describe non-obvious code behavior
 * Don't write comments that do not add to code understanding
 * Optimize for performance only if there's a measureable problem
+* Use ternary when it is simple enough as to not make code difficult to understand
 
 ## Pragmatic JavaScript
 
