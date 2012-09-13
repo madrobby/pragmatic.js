@@ -3,8 +3,6 @@
 ## TL;DR
 
 ### General coding:
-* Use short and concise expressions
-* Prefer functional programming over for or while loops
 * Use long, descriptive variable and method names
 * Use blank lines to separate "paragraphs" of code for readability
 * Use comments to describe non-obvious code behavior
@@ -17,6 +15,9 @@
 * `function(){ }` for anonymous functions
 
 ### Statements & expressions:
+* Use short and concise expressions
+* Use duck-typing and rely on unit tests rather than testing for types of arguments
+* Prefer functional programming over `for` and `while` loops
 * No curly braces for single-line control flow statements such as `if` & friends
 * Don't write [semicolons that are optional][optional]
 * Put a single semicolon _before_ statements that start with `(` or `[`
