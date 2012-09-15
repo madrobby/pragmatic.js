@@ -27,6 +27,30 @@
 * Use ternary when it is simple enough as to not make code difficult to understand
 * Do not use `try` and `catch` unless absolutely required (like an API forcing you to do so)
 
+### for..in statements
+Always check if the property you're reading from an object in a `for..in`
+loop is actually a property from this object using `Object.prototype.hasOwnProperty`
+as in the example below:
+
+```javascript
+var myArray, i;
+
+Array.prototype.myOwnFunction = function () {
+  // Do something pretty
+};
+
+myArray = [1, 2, 3, 4, 5];
+for (i in myArray) {
+  /*
+   * Without this filter, myOwnFunction would be read too, probably causing a bug
+   * in your app. You don't want that
+   */
+  if (myArray.hasOwnProperty(i)) {
+    console.log(myArray[i]);
+  }
+}
+```
+
 ## Pragmatic JavaScript
 
 The word pragmatic means _"Practical, concerned with making decisions 
