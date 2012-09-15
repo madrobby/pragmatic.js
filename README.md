@@ -26,6 +26,8 @@
   (see above article as for why it's needed)
 * Use ternary when it is simple enough as to not make code difficult to understand
 * Do not use `try` and `catch` unless absolutely required (like an API forcing you to do so)
+* Do not change native objects' prototype
+* Always prefer `Array.prototype.forEach` over `for..in` to iterate over arrays
 
 ## Pragmatic JavaScript
 
